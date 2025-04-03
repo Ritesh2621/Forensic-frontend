@@ -400,7 +400,7 @@ const SketchApp = () => {
           <button onClick={handleSave} className="bg-green-500 text-white w-full py-2 rounded">Save</button>
           <button onClick={handleReset} className="bg-yellow-500 text-white w-full py-2 rounded">Reset</button>
           <button onClick={handleDeleteShape} className="bg-red-500 text-white w-full py-2 rounded">Delete Shape</button>
-          {/* <button onClick={handleDetails} className="bg-blue-500 text-white w-full py-2 rounded">Add Details</button> */}
+          <button onClick={handleDetails} className="bg-blue-500 text-white w-full py-2 rounded">Add Details</button>
         </div>
 
         <h2 className="text-lg font-bold mb-4">{selectedCategory} Options</h2>
