@@ -436,7 +436,8 @@ const Home = () => {
       <section className="py-16 lg:py-24 px-6 lg:px-12 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className={`space-y-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'}`}>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-          Forensic Vision <span className="text-indigo-400">Creating and Identifying </span> Forensic Facial Sketches
+          Forensic Vision <span className="text-indigo-400"> Forensic Face Sketch
+           </span> Construction and Recognition
           </h1>
           <p className="text-lg text-gray-300">
             Revolutionizing forensic investigations with AI-powered sketch-to-photo matching technology for faster suspect identification.

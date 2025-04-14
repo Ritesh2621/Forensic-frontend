@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Fingerprint, FileCheck, PenTool, Activity, Search, Save } from 'lucide-react';
 import * as THREE from 'three';
+import { Link } from 'react-router-dom';
 
 const Feature = () => {
   const canvasRef = useRef(null);
@@ -494,10 +495,10 @@ const Feature = () => {
             Create, process, and match forensic sketches with our AI-powered platform. Instantly identify potential matches from databases of millions of faces.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-md font-medium flex items-center justify-center gap-2 transition-colors">
+            <Link to='/' className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-md font-medium flex items-center justify-center gap-2 transition-colors">
               <PenTool className="h-5 w-5" />
               Start Sketching
-            </button>
+            </Link>
             {/* <button className="bg-transparent border border-indigo-500 hover:bg-indigo-900 px-6 py-3 rounded-md font-medium flex items-center justify-center gap-2 transition-colors">
               <Search className="h-5 w-5" />
               Try Demo
